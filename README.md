@@ -1,15 +1,54 @@
-# pantherhotel
+# Panther Hotel
 
-Panther Hotel
+## Description
 
-######################################
+Panther Hotel is a simple application designed for guests to create reservations and for managers to oversee all reservations that have been made.
 
-Panther hotel app is a simple application for guests to create reservations and for managers to overlook all reservations that have been created.
+## Usage
 
-######################################
+### Home Page
 
-On the home page are 2 buttons. One for the managers, and one for guests.
+Upon opening the application, users are met with a home page featuring two buttons:
+- "Make a Reservation": Guests can click this button to create a reservation.
+- "Reservation List": Managers can click this button to view all existing reservations.
 
-the "Make a Reservation button" sends the guest to the reservation page where the guest can the input their name, prefered room type, Check-in-date, and check-out-date. After inputting the required info, the guest should hit the "Submit Reservation" button. After hitting submit reservation, the guest is sent to the Reservation confirmation page.
+### Making a Reservation
 
-The "Reservation list" button will send the manager to the reservation list page where they can view all reservations that can be made. The data in the table is stored in a database and includes all data that a guest can input into the system. Data fields are reservation ID, Name, room type, check-in-date, and check-out-date.
+1. Click the "Make a Reservation" button on the home page.
+2. You will be redirected to the reservation page.
+3. Input the following details:
+   - Name
+   - Preferred room type
+   - Check-in date
+   - Check-out date
+4. After entering the required information, click the "Submit Reservation" button.
+5. You will be redirected to the Reservation Confirmation page.
+
+### Viewing Reservation List (For Managers)
+
+1. Click the "Reservation List" button on the home page.
+2. You will be directed to the reservation list page.
+3. Here, managers can view all reservations stored in the database.
+4. Reservation details include:
+   - Reservation ID
+   - Name
+   - Room type
+   - Check-in date
+   - Check-out date
+
+## Technologies Used
+
+- [List of technologies used in the development of Panther Hotel]
+
+## Installation
+
+[Instructions on how to install and run the application, including any dependencies]
+
+## Contributing
+
+[Guidelines for contributing to the project]
+
+## License
+
+[License information for the project]
+
